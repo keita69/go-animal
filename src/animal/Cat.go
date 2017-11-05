@@ -9,7 +9,7 @@ type Cat struct{
 }
 
 func NewCat() *Cat {
-	return &Cat{"にゃーにゃー"}
+	return &Cat{"にゃーにゃー"} 
 }
 
 func (c Cat) Bark(){
